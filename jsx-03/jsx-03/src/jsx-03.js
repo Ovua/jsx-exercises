@@ -1,4 +1,3 @@
 function sum(a,b) {
-  return (<h2>{a+b}</h2>)
+  return <h2>{sum(4,7)}</h2>
 }
-sum(2,2)
